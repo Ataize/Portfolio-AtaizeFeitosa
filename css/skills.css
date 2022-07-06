@@ -1,0 +1,50 @@
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.subtitulo {
+	font-size: 32px;
+	text-align: center;
+	color: #464646;
+	padding-top: 1.5rem;
+}
+.skills__itens {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 16px;
+}
+.skills__item {
+	background: #F5F5F5;
+	width: 150px;
+	height: 120px;
+	align-items: flex-start;
+	padding: 3%;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+	border-radius: 5%;
+}
+.skills__descricao {
+	padding: 10px 0 0 0;
+	color: #464646;
+	font-weight: bold;
+}
+.fonte {
+	font-size: .3rem;
+	justify-content: flex-end;
+}
+@media (max-width: 768px){
+		.skills {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 16px;
+		}
+		.skills__item {
+			width: 110px;
+			height: 110px;
+			margin: 1%;
+		}
+	}

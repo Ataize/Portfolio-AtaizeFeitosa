@@ -1,0 +1,82 @@
+.contato {
+	background: #dac7bd;
+	display: flex;
+	padding: 2rem;
+}
+.contato__imagem {
+	display: flex;
+	width: 60%;
+	max-width: 364px;
+}
+.contato__caixa {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 5%;
+	width: 100%;
+}
+.contato__descricao {
+	line-height: 1.2rem;
+	color: #464646;
+	padding: 1%;
+	width: 90%;
+}
+.contato__formulario {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.contato__informacao {
+	display: flex;
+	flex-direction: column;
+	background:#F5F5F5;
+	line-height: 19px;
+	color: #464646;
+	width: 90%;
+	height: 56px;
+	margin: 1%;
+}
+.mensagem {
+	position: static;
+	width: 90%;
+	height: 96px;
+	top: 0px;
+	background: #F5F5F5;
+	border-radius: 4px;
+}
+.contato__input {
+	border: transparent;
+	height: 56px;
+}
+.contato__input:hover {
+	border: 1px solid #9e7e83;
+}
+.contato__botao {
+	width: 175px;
+	height: 51px;
+	background: #9e7e83;
+	border: transparent;
+	color: #F5F5F5;
+	transform: 1s;
+	margin: 2%;
+}
+.contato__botao:hover {
+	cursor: pointer;
+	font-weight: bold;
+	border: transparent;
+	cursor: pointer;
+	font-weight: bold;
+	background: #6c4856;
+}
+@media (max-width: 768px){
+		.contato {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.contato__imagem {
+			width: 80%;
+		}
+
+	}

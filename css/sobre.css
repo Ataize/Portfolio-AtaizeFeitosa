@@ -1,0 +1,19 @@
+.sobre {
+	background: #bfb39c;
+	
+	padding: 2rem;
+	width: 92%;
+	
+}
+.sobre__subtitulo {
+	font-size: 32px;
+	color: #464646;
+}
+.sobre__texto {
+	font-size: 18px;
+	line-height: 30px;
+	color: #464646;
+}
+.sobre__rubrica {
+	height: 52px;
+}

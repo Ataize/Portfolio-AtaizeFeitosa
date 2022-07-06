@@ -1,0 +1,67 @@
+.experiencia {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.experiencia__titulo {
+	font-size: 32px;
+	text-align: center;
+	color: #464646;
+	padding-top: 1.5rem;
+}
+.experiencia__projetos {
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+}
+.experiencia__imagem {
+	width: 60%;
+	max-width: 450px;
+}
+.experiencia__projeto {
+	margin: 5%;
+}
+.experiencia__nome {
+	font-size: 20px;
+	color: #464646;
+}
+.experiencia__descricao {
+	line-height: 19px;
+	color: #464646;
+}
+.experiencia__repositorio {
+	width: 105px;
+	height: 51px;
+	color: #a89288;
+	border: 1px solid #a89288;
+	margin-right: 10px;
+}
+.experiencia__repositorio:hover {
+	cursor: pointer;
+	font-weight: bold;
+	color: #9e7e83;
+	border: 2px solid #9e7e83;
+}
+.experiencia__demo {
+	width: 105px;
+	height: 51px;
+	background: #a89288;
+	border: 1px solid #a89288;
+	color: white;
+}
+.experiencia__demo:hover {
+	cursor: pointer;
+	font-weight: bold;
+	background: #6c4856;
+}
+@media (max-width: 768px){
+		.experiencia__projetos {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.experiencia__imagem {
+			width: 100%;
+			order: -1;
+		}
+	}
