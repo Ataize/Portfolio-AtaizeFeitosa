@@ -1,7 +1,8 @@
 .cabecalho {
 	
 	width: 100%;
-	border-bottom:solid 1px #464646;
+	border-bottom:solid 1px  #9e7e83;
+	;
 }
 .cabecalho__principal {
 	display: flex;	
@@ -26,6 +27,7 @@
 .cabecalho__nome:hover {
 	font-size: 25px;
 	font-weight: bold;
+	color: #9e7e83;
 }
 .cabecalho__item {
 	padding-right: 20px;
@@ -34,6 +36,7 @@
 .cabecalho__item:hover {
 	font-size: 1.1em;
 	font-weight: bold;
+	color: #9e7e83;
 }
 .email {
 	font-weight: bold;

@@ -45,13 +45,13 @@
 	cursor: pointer;
 	font-weight: bold;
 	color: #9e7e83;
-	border: 2px solid #9e7e83;
+	border: 2px solid #6c4856;
 }
 .experiencia__demo {
 	width: 105px;
 	height: 51px;
 	background: #9e7e83;
-	border: 1px solid #a89288;
+	border: 1px solid #6c4856;
 	color: white;
 }
 .experiencia__demo:hover {
@@ -64,7 +64,6 @@
 			justify-content: center;
 			flex-wrap: wrap;
 		}
-
 		.experiencia__imagem {
 			width: 100%;
 			order: -1;
