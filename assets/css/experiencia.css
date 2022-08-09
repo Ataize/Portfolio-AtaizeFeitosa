@@ -14,9 +14,14 @@
 	justify-content: space-around;
 	margin: 5%;
 }
+.experiencia__projetos li {
+	
+	line-height: 25px;
+}
 .experiencia__imagem {
-	width: 60%;
+	min-width: 40%;	
 	max-width: 450px;
+	border: 2px solid #9e7e83;
 }
 .experiencia__projeto {
 	margin: 5%;
@@ -32,7 +37,7 @@
 .experiencia__repositorio {
 	width: 105px;
 	height: 51px;
-	color: #a89288;
+	color: #9e7e83;
 	border: 1px solid #a89288;
 	margin-right: 10px;
 }
@@ -45,7 +50,7 @@
 .experiencia__demo {
 	width: 105px;
 	height: 51px;
-	background: #a89288;
+	background: #9e7e83;
 	border: 1px solid #a89288;
 	color: white;
 }

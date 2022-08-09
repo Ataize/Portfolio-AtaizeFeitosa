@@ -1,6 +1,7 @@
 .cabecalho {
 	
 	width: 100%;
+	border-bottom:solid 1px #464646;
 }
 .cabecalho__principal {
 	display: flex;	
@@ -20,6 +21,7 @@
 	font-weight: bold;
 	color: #464646;
 	font-size: 20px;
+	
 }
 .cabecalho__nome:hover {
 	font-size: 25px;

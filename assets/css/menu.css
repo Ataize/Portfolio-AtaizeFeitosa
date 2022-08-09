@@ -24,16 +24,23 @@
 	line-height: 26px;
 	color: #464646;
 }
+.menu__redesSociais{
+	width: 100%;
+	display: flex;
+}
 .menu__rede {
+	flex: 1;
 	text-decoration: none;
-	flex: none;
+	justify-content: space-around;
 	order: 2;
 	flex-grow: 0;	
 	color: #464646;
 	font-weight: bold;
 	margin-right: 20px;
+	margin: solid 1px #464646;
 }
 .menu__rede:hover {
+	color: #9e7e83;
 	cursor: pointer;
 	font-weight: bold;
 	font-size: 20px;

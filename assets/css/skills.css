@@ -17,14 +17,18 @@
 	padding: 16px;
 }
 .skills__item {
+	flex:1;
 	background: #F3E9DD;
-	width: 150px;
-	height: 120px;
+	max-width: 100px;
+	min-height: 120px;
 	align-items: flex-start;
 	padding: 3%;
 	flex-wrap: wrap;
-	margin-bottom: 15px;
+	margin: 20px;
 	border-radius: 5%;
+	border: 2px solid #9e7e83;
+	list-style: none;
+
 }
 .skills__descricao {
 	padding: 10px 0 0 0;

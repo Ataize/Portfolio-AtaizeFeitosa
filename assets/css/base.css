@@ -8,7 +8,8 @@ body {
     line-height: 1;
 }
 ol, ul,li {
-    list-style: none;
+   
+    padding-left: 0;
 }
 a{
     text-decoration: none;
@@ -23,7 +24,7 @@ textarea:focus, input:focus, select:focus {
 
 textarea::placeholder, input::placeholder{
     padding: 2%;
-    color:#2A7AE4;
+    color:#ffffff;
     
 }
 
