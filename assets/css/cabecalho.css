@@ -19,15 +19,10 @@
 .cabecalho__nome {
 	display: flex;
 	text-decoration: none;
-	font-weight: bold;
-	color: #464646;
+	font-weight: bolder;
+	color: #6c4856;
 	font-size: 20px;
 	
-}
-.cabecalho__nome:hover {
-	font-size: 25px;
-	font-weight: bold;
-	color: #9e7e83;
 }
 .cabecalho__item {
 	padding-right: 20px;
