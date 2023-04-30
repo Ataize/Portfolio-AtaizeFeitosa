@@ -17,12 +17,14 @@
   padding: 16px;
 }
 .skills__item {
-  flex: 1;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #f3e9dd;
-  max-width: 100px;
   min-height: 120px;
-  align-items: flex-start;
-  padding: 3%;
+  align-items: center;
+  padding: 2%;
   flex-wrap: wrap;
   margin: 20px;
   border-radius: 5%;
@@ -33,6 +35,10 @@
   padding: 10px 0 0 0;
   color: #464646;
   font-weight: bold;
+}
+.skills__imagem {
+  width: 50px;
+  height: 50px;
 }
 
 .fonte {
@@ -47,7 +53,7 @@
     padding: 16px;
   }
   .skills__item {
-    width: 110px;
+    width: 140px;
     margin: 1%;
   }
 }
